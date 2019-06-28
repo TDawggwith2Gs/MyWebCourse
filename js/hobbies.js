@@ -11,3 +11,13 @@ function printHobbyInfo(hobby) {
 for (let hobby of hobbiesArray) {
     printHobbyInfo(hobby);
 }
+
+let band1 = {
+    name : "Pink Floyd",
+    city : "London" ,
+    country : "England",
+    yearFormed : 1965,
+    genres : ["Progressive rock", "psychedelic rock", "art rock"]
+}
+band1.genres = new Array("Progressive rock2", "psychedelic rock2", "art rock2");
+}
